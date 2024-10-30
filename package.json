@@ -18,7 +18,8 @@
     "react-dom": "18",
     "react-markdown": "9.0.1",
     "remark-remove-comments": "1.0.1",
-    "styled-components": "6.1.13"
+    "styled-components": "6.1.13",
+    "resolve": "2.0.0-next.5"
   },
   "devDependencies": {
     "@testing-library/react": "16.0.1",
