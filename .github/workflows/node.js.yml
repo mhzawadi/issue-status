@@ -25,7 +25,7 @@ jobs:
     - name: Checkout tools repo
       uses: actions/checkout@v4
       with:
-        path: ../gh_pages
+        path: gh_pages
         ref: gh-pages
     - uses: pnpm/action-setup@v4
       with:
@@ -38,8 +38,8 @@ jobs:
     - run: pnpm install
     - run: pnpm run build
     - run: |
-          cd ../gh_pages
-          cp -r ../issue-status/out/* .
+          cd gh_pages
+          cp -r ../out/* .
           # Note: the following account information will not work on GHES
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
