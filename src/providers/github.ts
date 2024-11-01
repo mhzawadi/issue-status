@@ -36,7 +36,7 @@ const getIncidents = async (state: "open" | "closed") => {
     `${state}Incidents`,
     async () =>
       await octokit.rest.issues.listForRepo({
-        owner: "tadhglewis",
+        owner: "mhzawadi",
         repo: "issue-status",
         labels: "issue status,incident",
         state,
@@ -73,7 +73,7 @@ export const github: Provider = {
       "components",
       async () =>
         await octokit.rest.issues.listForRepo({
-          owner: "tadhglewis",
+          owner: "mhzawadi",
           repo: "issue-status",
           labels: "issue status,component",
         })
