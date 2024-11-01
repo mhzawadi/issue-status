@@ -8,7 +8,7 @@ import {
   useEffect,
   useState,
 } from "react";
-import { githubr } from "@/providers/github";
+import { github } from "@/providers/github";
 
 const DataContext = createContext<Data | undefined>(undefined);
 
