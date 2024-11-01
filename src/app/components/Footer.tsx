@@ -23,7 +23,7 @@ export const Footer = () => (
     <Link
       rel="noopener"
       target="_blank"
-      href="https://github.com/tadhglewis/issue-status"
+      href="https://github.com/mhzawadi/issue-status"
     >
       Powered by Issue Status
     </Link>
