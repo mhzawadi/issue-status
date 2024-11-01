@@ -8,11 +8,11 @@ import {
   useEffect,
   useState,
 } from "react";
-import { githubProvider } from "@/providers/github";
+import { githubr } from "@/providers/github";
 
 const DataContext = createContext<Data | undefined>(undefined);
 
-const createApiClient = () => githubProvider;
+const createApiClient = () => github;
 
 export const DataProvider: React.FC<{
   children: ReactNode | ReactNode[] | null;
