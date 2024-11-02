@@ -19,13 +19,11 @@ const Link = styled.a`
 `;
 
 export const Footer = () => (
-  <Box>
-    <Link
-      rel="noopener"
-      target="_blank"
-      href="https://github.com/mhzawadi/issue-status"
-    >
-      Powered by Issue Status
-    </Link>
-  </Box>
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l1 horwood-bottom">
+      <section class='copyright'>
+        <p class='copyright-info'>&copy; Copyright 2004 - 2024</p>
+      </section>
+    </div>
+  </footer>
 );
