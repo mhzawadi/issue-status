@@ -9,5 +9,6 @@
   },
   "dependencies": {
     "issue-status": "^0.0.26"
-  }
+  },
+  "packageManager": "pnpm@10.12.1"
 }
