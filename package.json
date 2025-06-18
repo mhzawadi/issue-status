@@ -8,7 +8,7 @@
     "preview": "issue-status preview"
   },
   "dependencies": {
-    "issue-status": "^0.0.26"
+    "issue-status": "^0.0.27"
   },
   "packageManager": "pnpm@10.12.1"
 }
