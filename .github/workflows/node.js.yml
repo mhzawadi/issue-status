@@ -32,6 +32,8 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build
         run: pnpm run build
+      - name: custom index
+        run: cp index.html dist/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
