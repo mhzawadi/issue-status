@@ -30,10 +30,10 @@ jobs:
         uses: actions/setup-node@v4
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
+      - name: custom index
+        run: cp index.html node_modules/issue-status/
       - name: Build
         run: pnpm run build
-      - name: custom index
-        run: cp index.html dist/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
