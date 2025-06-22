@@ -1,8 +1,8 @@
 ---
 name: Partial outage
 about: Partial outage
-title: "<YOUR SYSTEM> partial outage"
-labels: incident, partial outage
+title: "Partial outage - <SYSTEM>"
+labels: issue status, incident, partial outage
 ---
 
 <!--

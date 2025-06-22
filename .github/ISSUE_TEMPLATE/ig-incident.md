@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-Incident: 
+Incident:
 
-Cause: 
+Cause:
 
-Effect: 
+Effect:
 
-Duration: 
+Duration:
 
-Mitigation: 
+Mitigation:
 
 ---

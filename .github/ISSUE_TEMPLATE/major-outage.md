@@ -1,8 +1,8 @@
 ---
 name: Major outage
 about: Major outage
-title: "<YOUR SYSTEM> major outage"
-labels: incident, major outage
+title: "Major outage - <SYSTEM>"
+labels: issue status, incident, major outage
 ---
 
 <!--
@@ -20,4 +20,4 @@ You may uncomment updates of this template as needed.
 
 <!-- Identified:** We have identified the issue and a fix is being implemented. -->
 
-<!-- **Investigating:** We are currently investigating a major outage. -->
+**Investigating:** We are currently investigating a major outage.

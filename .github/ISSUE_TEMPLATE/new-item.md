@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-This is a service what needs a status report
+This service is used by all, it helps to run stuff
