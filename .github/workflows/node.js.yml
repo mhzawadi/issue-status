@@ -34,7 +34,7 @@ jobs:
         run: pnpm run build
       - name: custom index
         run: |
-          sed -i'' -e "s/##DATE##/$(date +\"%Y\")/" index.html;
+          sed -i'' -e "s/##DATE##/$(date +"%Y")/" index.html;
           cp index.html dist/;
       - name: Setup Pages
         uses: actions/configure-pages@v5
